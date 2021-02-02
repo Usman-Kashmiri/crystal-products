@@ -12,31 +12,41 @@
     height: 100vh;
 } */
 
+html, 
+body, 
+.carousel, 
+.carousel-inner, 
+.carousel-inner .item {
+    height: 100%;
+}
+
+
+
+/* Changes position of caption */
+.carousel-caption {
+    top: 30%;
+    bottom: auto;
+}
+.heading{font-size: 60px;text-shadow: 2px 2px  #51cefc;}
+.sub-heading{font-size: 30px; text-shadow: 2px 2px  #51cefc;}
+
+.shop-now-btn {
+    background: #51cefc;
+    color: white;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.shop-now-btn:hover {
+    color: white;
+    background: black;
+}
 
 /* Slider */
 
 #slider {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
     z-index: -1;
     width: 100%;
-}
-
-.shop-now-btn {
-    display: block;
-    position: absolute;
-    z-index: 2;
-    width: 18%;
-    background: linear-gradient(-90deg, #51cefc, rgb(1, 160, 160));
-    font-size: 46px;
-    color: white;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    border-radius: 6px;
-    border: none;
-    margin: 34% auto 0 2%;
-    cursor: pointer;
-}
-
-.shop-now-btn:hover {
-    background: #3555e6;
 }
 
 .new-img {
@@ -143,11 +153,12 @@
 /* Media Queries */
 
 @media screen and (max-width: 1920px) {
-    .shop-now-btn {
-        width: 15%;
-        font-size: 58px;
-        margin: 36% auto 0 2%;
-    }
+    .heading{font-size: 72px;text-shadow: 2px 2px  #51cefc;}
+.sub-heading{font-size: 40px; text-shadow: 2px 2px  #51cefc;}
+
+.shop-now-btn {
+    font-size: 48px;
+}
     #products-1 h1::after {
         width: 35%;
         height: 0.9%;
@@ -161,11 +172,12 @@
 }
 
 @media screen and (max-width: 1440px) {
-    .shop-now-btn {
-        width: 18%;
-        font-size: 42px;
-        margin: 34% auto 0 2%;
-    }
+    .heading{font-size: 60px;text-shadow: 2px 2px  #51cefc;}
+.sub-heading{font-size: 30px; text-shadow: 2px 2px  #51cefc;}
+
+.shop-now-btn {
+    font-size: 32px;
+}
     #products-1 h1::after {
         position: absolute;
         margin: 24px auto 0 28px;
@@ -177,11 +189,12 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .shop-now-btn {
-        margin: 49% auto 0 2%;
-        width: 18%;
-        font-size: 38px;
-    }
+    .heading{font-size: 60px;text-shadow: 2px 2px  #51cefc;}
+.sub-heading{font-size: 30px; text-shadow: 2px 2px  #51cefc;}
+
+.shop-now-btn {
+    font-size: 28px;
+}
     #products-1 h1::after {
         width: 32%;
         height: 0.5%;
@@ -196,10 +209,12 @@
 }
 
 @media screen and (max-width: 770px) {
-    .shop-now-btn {
-        width: 20%;
-        font-size: 30px;
-    }
+    .heading{font-size: 34px;text-shadow: 2px 2px  #51cefc;}
+.sub-heading{font-size: 18px; text-shadow: 2px 2px  #51cefc;}
+
+.shop-now-btn {
+    font-size: 28px;
+}
     #products-1 h1::after {
         height: 0.4%;
         margin: 24px auto 0 40px;
@@ -211,11 +226,7 @@
 }
 
 @media screen and (max-width: 540px) {
-    .shop-now-btn {
-        margin: 45% auto 0 2%;
-        width: 25%;
-        font-size: 21px;
-    }
+    
     #products-1 h1::after {
         display: none;
     }

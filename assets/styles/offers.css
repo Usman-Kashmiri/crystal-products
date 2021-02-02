@@ -111,7 +111,7 @@ body {
     height: 200px;
     margin: 0 auto;
     border-radius: 50%;
-    transition: background 0.5s ease;
+    transition: 0.5s ease;
 }
 
 .product-btns {
@@ -238,6 +238,7 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../images/SpecialOffers/Collection\ 02.jpg") center/cover no-repeat;
 }
 
+
 .flex {
     display: flex;
     justify-content: center;
@@ -254,6 +255,7 @@ body {
 .product-col-r-bottom>div:last-child {
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(26, 1, 255, 0.3)), url("../images/SpecialOffers/Collection\ 04.jpg") center/cover no-repeat;
 }
+
 
 .product-col-content {
     text-align: center;
