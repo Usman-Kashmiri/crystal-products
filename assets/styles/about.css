@@ -1,0 +1,36 @@
+.aboutus h1 {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 60px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    flex-direction: column;
+}
+
+.aboutus h2 {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 36px;
+    display: block;
+}
+
+.aboutus p {
+    font-family: sans-serif;
+    font-size: 22px;
+    display: block;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.aboutus img {
+    width: 30%;
+    left: 32%;
+    display: block;
+    position: relative;
+    padding-bottom: 0px;
+}
