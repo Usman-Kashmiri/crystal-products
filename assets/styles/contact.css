@@ -1,5 +1,4 @@
 #contact {
-    margin: 0;
     background: black;
 }
 
@@ -27,7 +26,7 @@
 
 .contact .getintouch p {
     font-size: 20px;
-    margin-top: 0px;
+    margin: 0px;
     font-weight: 300;
     color: whitesmoke;
 }
