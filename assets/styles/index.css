@@ -153,8 +153,10 @@ body,
 /* Media Queries */
 
 @media screen and (max-width: 1920px) {
-    .heading{font-size: 72px;text-shadow: 2px 2px  #51cefc;}
-.sub-heading{font-size: 40px; text-shadow: 2px 2px  #51cefc;}
+    .heading{font-size: 72px;
+    }
+.sub-heading{font-size: 40px;
+    }
 
 .shop-now-btn {
     font-size: 48px;
@@ -172,8 +174,10 @@ body,
 }
 
 @media screen and (max-width: 1440px) {
-    .heading{font-size: 60px;text-shadow: 2px 2px  #51cefc;}
-.sub-heading{font-size: 30px; text-shadow: 2px 2px  #51cefc;}
+    .heading{font-size: 60px;
+    }
+.sub-heading{font-size: 30px;
+    }
 
 .shop-now-btn {
     font-size: 32px;
@@ -189,8 +193,10 @@ body,
 }
 
 @media screen and (max-width: 1024px) {
-    .heading{font-size: 60px;text-shadow: 2px 2px  #51cefc;}
-.sub-heading{font-size: 30px; text-shadow: 2px 2px  #51cefc;}
+    .heading{font-size: 60px;
+    }
+.sub-heading{font-size: 30px;
+    }
 
 .shop-now-btn {
     font-size: 28px;
@@ -209,8 +215,10 @@ body,
 }
 
 @media screen and (max-width: 770px) {
-    .heading{font-size: 34px;text-shadow: 2px 2px  #51cefc;}
-.sub-heading{font-size: 18px; text-shadow: 2px 2px  #51cefc;}
+    .heading{font-size: 34px;
+    }
+.sub-heading{font-size: 18px;
+    }
 
 .shop-now-btn {
     font-size: 28px;
@@ -226,12 +234,12 @@ body,
 }
 
 @media screen and (max-width: 540px) {
-    .heading{font-size: 22px;
+    .heading{font-size: 20px;
     }
-    .sub-heading{font-size: 11px;
+    .sub-heading{font-size: 12px;
     }
     .shop-now-btn {
-    font-size: 16px;
+    font-size: 14px;
     }
     #products-1 h1::after {
         display: none;
@@ -437,6 +445,9 @@ body,
 }
 
 @media screen and (max-width: 540px) {
+    .carousel-caption {
+    top: 0;
+    }
     .product-items {
         grid-template-columns: repeat(1, 1fr);
     }
