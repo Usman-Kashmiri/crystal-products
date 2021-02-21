@@ -1,5 +1,4 @@
 #contact {
-    margin: 0;
     background: black;
 }
 
@@ -17,6 +16,7 @@
 .contact .getintouch {
     max-width: 800px;
     text-align: center;
+    display: block;
 }
 
 .contact .getintouch h1 {
@@ -208,10 +208,17 @@
 
 /* Media Queries */
 
+@media screen and (max-width: 1920px) {
+    .contact {
+        display: flex;
+    }
+}
+
 @media screen and (max-width: 1080px) {
     .contact {
         padding: 50px;
         height: 100vh;
+        display: block;
     }
     .container {
         flex-direction: column;

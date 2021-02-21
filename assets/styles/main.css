@@ -30,12 +30,12 @@ body {
     background-color: #51cefc;
 }
 
-.nav-item:active {
+.active {
     background-color: #000000;
 }
 
-.active a {
-    background-color: #000000;
+.navbar-nav li {
+    padding-left: 0px;
 }
 
 .nav-item {
@@ -109,6 +109,9 @@ body {
 }
 
 @media screen and (max-width: 1920px) {
+    .navbar-nav li {
+        padding-left: 0px;
+    }
     .social-links {
         left: -44%;
     }
@@ -127,7 +130,6 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
-    
     .footer-img {
         margin-top: 6%;
     }
@@ -144,6 +146,9 @@ body {
 }
 
 @media screen and (max-width: 770px) {
+    .navbar-nav li {
+        padding-left: 10px;
+    }
     .social-links .fa {
         margin: 0;
     }

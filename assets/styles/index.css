@@ -12,23 +12,31 @@
     height: 100vh;
 } */
 
-html, 
-body, 
-.carousel, 
-.carousel-inner, 
+html,
+body,
+.carousel,
+.carousel-inner,
 .carousel-inner .item {
     height: 100%;
 }
 
 
-
 /* Changes position of caption */
+
 .carousel-caption {
     top: 30%;
     bottom: auto;
 }
-.heading{font-size: 60px;text-shadow: 2px 2px  #51cefc;}
-.sub-heading{font-size: 30px; text-shadow: 2px 2px  #51cefc;}
+
+.heading {
+    font-size: 60px;
+    text-shadow: 2px 2px #51cefc;
+}
+
+.sub-heading {
+    font-size: 30px;
+    text-shadow: 2px 2px #51cefc;
+}
 
 .shop-now-btn {
     background: #51cefc;
@@ -40,6 +48,7 @@ body,
     color: white;
     background: black;
 }
+
 
 /* Slider */
 
@@ -153,14 +162,17 @@ body,
 /* Media Queries */
 
 @media screen and (max-width: 1920px) {
-    .heading{font-size: 72px;
+    .heading {
+        font-size: 72px;
+        text-shadow: 2px 2px #51cefc;
     }
-.sub-heading{font-size: 40px;
+    .sub-heading {
+        font-size: 40px;
+        text-shadow: 2px 2px #51cefc;
     }
-
-.shop-now-btn {
-    font-size: 48px;
-}
+    .shop-now-btn {
+        font-size: 48px;
+    }
     #products-1 h1::after {
         width: 35%;
         height: 0.9%;
@@ -174,14 +186,17 @@ body,
 }
 
 @media screen and (max-width: 1440px) {
-    .heading{font-size: 60px;
+    .heading {
+        font-size: 60px;
+        text-shadow: 2px 2px #51cefc;
     }
-.sub-heading{font-size: 30px;
+    .sub-heading {
+        font-size: 30px;
+        text-shadow: 2px 2px #51cefc;
     }
-
-.shop-now-btn {
-    font-size: 32px;
-}
+    .shop-now-btn {
+        font-size: 32px;
+    }
     #products-1 h1::after {
         position: absolute;
         margin: 24px auto 0 28px;
@@ -193,14 +208,17 @@ body,
 }
 
 @media screen and (max-width: 1024px) {
-    .heading{font-size: 60px;
+    .heading {
+        font-size: 60px;
+        text-shadow: 2px 2px #51cefc;
     }
-.sub-heading{font-size: 30px;
+    .sub-heading {
+        font-size: 30px;
+        text-shadow: 2px 2px #51cefc;
     }
-
-.shop-now-btn {
-    font-size: 28px;
-}
+    .shop-now-btn {
+        font-size: 28px;
+    }
     #products-1 h1::after {
         width: 32%;
         height: 0.5%;
@@ -215,14 +233,19 @@ body,
 }
 
 @media screen and (max-width: 770px) {
-    .heading{font-size: 34px;
+    .carousel-caption {
+        top: 20%;
+        bottom: auto;
     }
-.sub-heading{font-size: 18px;
+    .heading {
+        font-size: 40px;
     }
-
-.shop-now-btn {
-    font-size: 28px;
-}
+    .sub-heading {
+        font-size: 20px;
+    }
+    .shop-now-btn {
+        font-size: 28px;
+    }
     #products-1 h1::after {
         height: 0.4%;
         margin: 24px auto 0 40px;
@@ -234,12 +257,19 @@ body,
 }
 
 @media screen and (max-width: 540px) {
-    .heading{font-size: 20px;
+    .carousel-caption {
+        top: -1.5%;
     }
-    .sub-heading{font-size: 12px;
+    .heading {
+        font-size: 26px !important;
+    }
+    .sub-heading {
+        font-size: 12px;
     }
     .shop-now-btn {
-    font-size: 14px;
+        margin-top: 5% !important;
+        font-size: 12px;
+        width: auto;
     }
     #products-1 h1::after {
         display: none;
@@ -445,9 +475,6 @@ body,
 }
 
 @media screen and (max-width: 540px) {
-    .carousel-caption {
-    top: 0;
-    }
     .product-items {
         grid-template-columns: repeat(1, 1fr);
     }
